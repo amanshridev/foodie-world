@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/desi.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Foodie World</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4 data-aos="fade-down">Foodie World</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu" data-aos="fade-down">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#food">Food</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <img src="assets/search.svg" alt="search" />
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="assets/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-image">
+        <img 
+          src="assets/food.png"
+          alt="desi"
+          data-aos="fade-up"
+        />
+        <h2 data-aos="fade-up">
+          F<br />
+          O<br />
+          O<br />
+          D<br />
+          I<br />
+          E<br />
+        </h2>
+
+        <div class="hero-image__overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-content-info" data-aos="fade-left">
+          <h1>Feel the taste of Indian food</h1>
+          <p>Feel the taste of the most popular Indian food from anywhere and anytime.</p>
+
+          <div class="hero-content__buttons">
+            <button class="hero-content__order-button">Order Now</button>
+          </div>
+        </div>
+
+        <div class="hero-content__testimonial" data-aos="fade-up">
+          <div class="hero-content__customer flex-center">
+            <h4>24<span>+</span></h4>
+            <p>Happy Customers</p>
+          </div>
+
+          <div class="hero-content__review">
+            <img src="assets/user.png" alt="user" />
+            <p>"This is the best Indian food delivery service that ever existed."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="about-us__image">
+        <div class="about-us__image-spice">
+          <img src="assets/spice.png" alt="spice" data-aos="fade-right" />
+        </div>
+
+        <button class="about-us__button">
+          Learn More
+
+          <img src="assets/arrow-up-right.svg" alt="learn more" />
+        </button>
+
+        <div class="about-us__image-desi2">
+          <img src="assets/desi-2.png" alt="desi"  data-aos="fade-right" />
+        </div>
+      </div>
+
+      <div class="about-us__content"  data-aos="fade-left">
+        <p class="desi__subtitle">About Us /  हमारे बारे में थोड़ा</p>
+        <h3 class="desi__title">Our mission is to bring true Indian flavours to you.</h3>
+        <p class="desi__description">We will continue to provide the experience of best Spices, the Indian mindset of hospitality, with our shopping and dining for our customers.
+        </p>
+      </div>
+    </section>
+
+    <section class="popular-foods" id="menu">
+      <h2 class="popular-foods__title" data-aos="flip-up">Popular Food / लोकप्रिय भोजन</h2>
+
+      <div class="popular-foods__filters desi__hide-scrollbar" data-aos="fade-up">
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="popular-foods__filter-btn">
+          <img src="/assets/desi-9.png" alt="desi 9" />
+          Chaat
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/assets/desi-8.png" alt="desi 8" />
+          Pizza
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/assets/desi-7.png" alt="desi 7" />
+          Dosa
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/assets/desi-6.png" alt="desi 6" />
+          Pani Puri
+        </button>
+        <button class="popular-foods__filter-btn">All</button>
+      </div>
+
+      <div class="popular-foods__catalogue" data-aos="fade-up">
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="assets/desi-12.png" alt="desi-12" />
+          <h4 class="popular-foods__card-title">Pizza</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.9</p>
+            </div>
+
+            <p class="popular-foods__card-price">$21.00</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card active-card">
+          <img class="popular-foods__card-image" src="assets/desi-11.png" alt="desi-11" />
+          <h4 class="popular-foods__card-title">Dosa</h4>
+          
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>5.0</p>
+            </div>
+            
+            <p class="popular-foods__card-price">$19.00</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="assets/desi-2.png" alt="desi-10" />
+          <h4 class="popular-foods__card-title">Chowmin</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.7</p>
+            </div>
+
+            <p class="popular-foods__card-price">$13.00</p>
+          </div>
+        </article>
+      </div>
+
+      <button class="popular-foods__button">
+        Explore Food
+        <img src="assets/arrow-right.svg"  alt="arrow-right" />
+      </button>
+    </section>
+
+    <section class="trending" id="food">
+      <section class="trending-desi">
+        <div class="trending__content" data-aos="fade-right">
+          <p class="desi__subtitle">What’s Trending / लोकप्रिया</p>
+  
+          <h3 class="desi__title">Indian desi
+          </h3>
+          <p class="desi__description">Feel the taste of the most delicious desi here.
+          </p>
+  
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Make desi</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Food</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Spices</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Dosa</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Chaat</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Pani Puri</p>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="trending__image flex-center">
+          <img src="assets/desi-12.png" alt="desi-5" data-aos="fade-left" />
+  
+          <div class="trending__arrow trending__arrow-left">
+            <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+  
+          <div class="trending__arrow trending__arrow-bottom">
+            <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+          </div>
+        </div>
+
+      </section>
+
+      <div class="trending__discover" data-aos="zoom-in">
+        <p>Discover</p>
+      </div>
+
+      <section class="trending-drinks">
+        <div class="trending__image flex-center">
+          <img src="assets/desi-4.png" alt="desi-4" data-aos="fade-right" />
+  
+          <div class="trending__arrow trending__arrow-top">
+            <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+          </div>
+  
+          <div class="trending__arrow trending__arrow-right">
+            <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+        </div>
+
+        <div class="trending__content" data-aos="fade-left">
+          <p class="desi__subtitle">What’s Trending / लोकप्रिया</p>
+  
+          <h3 class="desi__title">Indian Drinks
+          </h3>
+          <p class="desi__description">Feel the taste of the most delicious Japense drinks here.
+          </p>
+  
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Oruncha</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>
+                Sakura Tea</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Aojiru</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Ofukucha</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Kombu-cha</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Mugicha</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <section class="subscription flex-center" id="services">
+      <h2 data-aos="flip-down">
+        Get offers stright <br />
+        to your inbox
+      </h2>
+      <p data-aos="fade-up">Sign up for the Foodie newsletter</p>
+
+      <div class="subscription__form" data-aos="fade-up">
+        <input type="text" placeholder="Enter your email address"/>
+        <button>Get Started</button>
+      </div>
+    </section>
+
+    <footer class="footer flex-between">
+      <h3 class="footer__logo">
+        <span>Food</span>ie
+      </h3>
+
+      <ul class="footer__nav">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about-us">About Us</a></li>
+      </ul>
+
+      <ul class="footer__social">
+        <li class="flex-center">
+          <img src="assets/facebook.svg" alt="facebook" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/instagram.svg" alt="instagram" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/twitter.svg" alt="twitter" />
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
